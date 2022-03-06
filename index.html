@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinBox</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD//wAAKysrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREREREREREREAAAAAAAAREQEREREREBERAQAAAAAQEREBAAAAABAREQEBEAEQEBERAQEQARAQEREBARABEBAREQEBEAEQEBERAQAAAAAQEREBAAAAABAREQEREREREBERAAAAAAAAEREREREREREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li id="about">/about</li>
+                <li id="contact">/contact</li>
+                <li id="more">/more</li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>longthanhvu:$<span class="cursor">|</span></h1>
+            <h3>Find me online:</h3>
+            <ul>
+                <li>
+                    <a href="#" target="_blank">YouTube</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Udemy</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Github</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Codepen</a>
+                </li>
+            </ul>
+        </main>
+        
+        <!-- Add css hidden when click on about or contact then this is show  -->
+        <div class="hidden">
+            <div id="about-content">
+                <h2>about-me:$<span class="cursor">|</span></h2>
+                <p>My name is Long Thanh Vu and I am a Developer</p>
+                <p>
+                Some of the languages that I am fluent in include JavaScript, HTML,
+                CSS and Outsystems
+                </p>
+            </div>
+        
+            <div id="contact-content">
+                <h2>contact-me:$<span class="cursor">|</span></h2>
+                <p>You can contact me at the email and phone number below</p>
+                <ul>
+                    <li>Phone: 0965 899 xxx</li>
+                    <li>Email: longthanhvu1603hn2@gmail.com</li>
+                </ul>
+            </div>
+
+            <div id="more-content">
+                <h2>more:$<span class="cursor">|</span></h2>
+                <p>Write for me:</p>
+            </div>
+        </div>
+
+    <script src="./js/winbox.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
